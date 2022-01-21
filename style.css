@@ -64,3 +64,6 @@ color: rgb(255, 65, 65);
 .photos > img {
     width: 600px;
 }
+    .big {
+    height: 450px;
+    }
