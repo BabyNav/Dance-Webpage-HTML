@@ -1,0 +1,62 @@
+:root {
+    --brown:#81d6d6;
+    --gold:#81d6d6;
+    --white:#FFF;
+    --grey:#707070;
+}
+body {
+    font-size: 1.125rem;
+}
+h1 {
+    font-size: 2.8rem;
+    color: rgb(197, 55, 197);
+    text-align: center;
+}
+h2 {
+font-size: 1.5rem;
+color: rgb(255, 65, 65);
+}
+.container >img {
+    width:  950px;
+    height: 300px;
+}
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 1rem;  
+}
+.three, .five {
+    background-color:rgb(107, 255, 255);
+    color: var(--white);
+    padding: 0.5rem;
+    
+}
+.one > p, .two > p, .four > p{
+    color: rgb(255, 37, 73);
+}
+.three > p, .five > p {
+    color: rgb(255, 37, 73) ;
+}
+@media screen and (min-width: 768px) {
+    .middle, .last {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+    .two {
+        margin: 0px 1rem;
+        width: 40%;
+    }
+    .one, .three, .five {
+        width: 20%;
+    }
+    .four {
+        margin-right: 2rem;
+        width: 70%   ;
+    }
+.three {
+    padding-top: 50px;
+}
+.photos > img {
+    width: 600px;
+}
