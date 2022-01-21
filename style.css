@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed:ital@0;1&display=swap');
 :root {
     --brown:#81d6d6;
     --gold:#81d6d6;
     --white:#FFF;
     --grey:#707070;
+}
+* {
+    font-family: 'Oswald', sans-serif;
 }
 body {
     font-size: 1.125rem;
@@ -32,10 +36,10 @@ color: rgb(255, 65, 65);
     
 }
 .one > p, .two > p, .four > p{
-    color: rgb(255, 37, 73);
+    color: black;
 }
 .three > p, .five > p {
-    color: rgb(255, 37, 73) ;
+    color: black ;
 }
 @media screen and (min-width: 768px) {
     .middle, .last {
